@@ -18,6 +18,7 @@ public with sharing class LandingGITController {
     public LandingGITController(){
         this.mode = 'view';
     }
+    
 
     public void cancel(){
         this.mode = 'view';
